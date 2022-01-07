@@ -11,7 +11,9 @@ Content images: [COCO2014](https://cocodataset.org/#home) <br>
 
 ## Results
 
+![image-20220107144954407](C:\Users\14406\AppData\Roaming\Typora\typora-user-images\image-20220107144954407.png)![image-20220107145026418](C:\Users\14406\AppData\Roaming\Typora\typora-user-images\image-20220107145026418.png)
 
+Stylized results: Our method achieves a balanced style transfer, which can not only maintain the details of the content image, but also transfer the style patterns to the content image effectively.
 
 ## Requirements
 
@@ -23,17 +25,31 @@ Content images: [COCO2014](https://cocodataset.org/#home) <br>
 
 * CUDA: 10.1
 
-* PIL,numpy,scipy,tqdm
+* Other necessary libraries: PIL,numpy,scipy,tqdm
 
 ## Training && Testing
 
 ### Testing
 
-Pretrained models: [vgg-model](https://drive.google.com/file/d/1BinnwM5AmIcVubr16tPTqxMjUCE8iu5M/view?usp=sharing),  decoder, MNCAF_model<br> 
-Please download them and put them into the floder  ./model/  <br>
+Pretrained models: [vgg-model](https://drive.google.com/file/d/1BinnwM5AmIcVubr16tPTqxMjUCE8iu5M/view?usp=sharing),  [decoder, MNCAF](https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Fmncaf_model).<br> 
+Please download them and put them into the floder  ./model/.  <br>
+
+If you want to deal with only one image:
+
+`CUDA_VISIBLE_DEVICES=0 python Eval.py --content input/content/avril.jpg --style input/style/asheville.jpg`
+
+or a folder:
+
+`CUDA_VISIBLE_DEVICES=0 python Eval.py --content_dir input/content --style_dir input/style`
 
 ### Training
 
+`CUDA_VISIBLE_DEVICES=0 python train.py --content_dir ../../train2014 --style_dir ../../wikiart`
+
+
+
 ## Citing
 
-If you use our work in your research, please cite this using the following BibTeX entry ~ Thank you！. 
+If you use our work in your research, please cite us using the following BibTeX entry ~ Thank you ^ . ^. 
+
+`@cite`
