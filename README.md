@@ -12,8 +12,7 @@ Content images: [COCO2014](https://cocodataset.org/#home) <br>
 ## Results
 
 ![1](/images/1.png)
-
-
+![2](/images/2.png)
 ![3](/images/3.png)
 
 Stylized results: Our method achieves a balanced style transfer, which can not only maintain the details of the content image, but also transfer the style patterns to the content image effectively.
