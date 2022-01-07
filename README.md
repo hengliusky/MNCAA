@@ -11,7 +11,11 @@ Content images: [COCO2014](https://cocodataset.org/#home) <br>
 
 ## Results
 
-![image-20220107144954407](C:\Users\14406\AppData\Roaming\Typora\typora-user-images\image-20220107144954407.png)![image-20220107145026418](C:\Users\14406\AppData\Roaming\Typora\typora-user-images\image-20220107145026418.png)
+![1](C:\Users\14406\Desktop\1.png)
+
+![2](C:\Users\14406\Desktop\2.png)
+
+![3](C:\Users\14406\Desktop\3.png)
 
 Stylized results: Our method achieves a balanced style transfer, which can not only maintain the details of the content image, but also transfer the style patterns to the content image effectively.
 
