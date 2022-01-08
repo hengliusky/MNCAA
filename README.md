@@ -35,8 +35,8 @@ Stylized results: Our method achieves a balanced style transfer, which can not o
 
 ### Testing
 
-Pretrained models: [vgg-model](https://drive.google.com/file/d/1BinnwM5AmIcVubr16tPTqxMjUCE8iu5M/view?usp=sharing),  [decoder, MNCAF](https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Fmncaf_model).<br> 
-Please download them and put them into the floder  ./model/.  <br>
+Pretrained models: [vgg-model, decoder, MNCAF](https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Fmncaf_model).<br> 
+Please download them and put them into the floder ./model/.  <br>
 
 If you want to deal with only one image:
 
