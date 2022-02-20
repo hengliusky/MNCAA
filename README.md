@@ -1,4 +1,4 @@
-# MNCAF
+# MNCAA
 
 This repository is for the paper, "MNCAF: Balanced Style Transfer Based on Multi-level Normalized Cross Attention Fusion".
 
