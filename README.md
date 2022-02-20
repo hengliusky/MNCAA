@@ -1,8 +1,8 @@
 # MNCAA
 
-This repository is for the paper, "MNCAF: Balanced Style Transfer Based on Multi-level Normalized Cross Attention Fusion".
+This repository is for the paper, "MNCAA: Balanced Style Transfer Based on Multi-level Normalized Cross Attention Alignment".
 
-Liu, H., MI, Z., Chen, F. et al. MNCAF: Balanced Style Transfer Based on Multi-level Normalized Cross Attention Fusion.
+Liu, H., MI, Z., Chen, F. et al. MNCAA: Balanced Style Transfer Based on Multi-level Normalized Cross Attention Alignment.
 
 ## Datasets
 
